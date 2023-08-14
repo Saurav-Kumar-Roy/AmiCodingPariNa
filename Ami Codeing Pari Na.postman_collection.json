@@ -1,0 +1,143 @@
+{
+	"info": {
+		"_postman_id": "9b94500f-63f1-4c18-896f-01cadc3876df",
+		"name": "Ami Codeing Pari Na",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24030502",
+		"_collection_link": "https://bold-moon-840100.postman.co/workspace/todo~61c26a44-33e9-40b3-85cc-d235640b3b00/collection/24030502-9b94500f-63f1-4c18-896f-01cadc3876df?action=share&creator=24030502&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "saveQuery",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"user\":1,\n    \"text\":\"5, 2, 1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/section2/save/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"section2",
+						"save",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ApiEndpoint",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"start_datetime\":\"2023-8-13 7:0:0\", \n    \"end_datetime\":\"2023-8-13 9:0:0\", \n    \"user_id\":2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/section2/ApiEndpoint/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"section2",
+						"ApiEndpoint",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"sauravK\",\n    \"password\":\"aaa12345\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/section1/login/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"section1",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"adi\",\n    \"password\":\"aaa12345\",\n    \"password2\":\"aaa12345\",\n    \"email\":\"adi@g.com\",\n    \"first_name\":\"adi\",\n    \"last_name\":\"alom\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/section1/register/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"section1",
+						"register",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
